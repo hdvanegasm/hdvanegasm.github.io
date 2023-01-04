@@ -23,7 +23,7 @@ jobs:
           hugo-version: '0.91.2'
           # extended: true
 
-      - name: Build web page
+      - name: Build
         run: hugo --minify
 
       - name: Deploy
