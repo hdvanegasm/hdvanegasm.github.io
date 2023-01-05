@@ -6,6 +6,8 @@ draft: false
 
 # Who am I?
 
+![Profile](/index/self.png)
+
 My name is Hernán Darío Vanegas Madrigal. I have a Bachelor's degree
 in Computer Engineering and Bachelor's degree in Mathematics. I'm 
 currently an MSc. student in Applied Mathematics at National 
@@ -19,7 +21,7 @@ applications to machine learning.
 At this moment, I am studing how to compute some genomic algorithms
 privately using multi-party computation (MPC) protocols based on secret sharing 
 (SS). This study includes the evaluation of the pros/cons and the efficiency of
-these implementations. I am mainly using the [MP-SPDZ framework]("https://github.com/data61/MP-SPDZ")
+these implementations. I am mainly using the [MP-SPDZ framework](https://github.com/data61/MP-SPDZ)
 for this work.
 
 # Interests
