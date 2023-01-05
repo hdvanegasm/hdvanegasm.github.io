@@ -6,8 +6,6 @@ draft: false
 
 # Who am I?
 
-![Profile](/index/self.png)
-
 My name is Hernán Darío Vanegas Madrigal. I have a Bachelor's degree
 in Computer Engineering and Bachelor's degree in Mathematics. I'm 
 currently an MSc. student in Applied Mathematics at National 
