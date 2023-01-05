@@ -6,6 +6,10 @@ draft: false
 
 # Who am I?
 
+{{< rawhtml >}}
+<img src="/_index/self.png" width="250" />
+{{< /rawhtml>}}
+
 My name is Hernán Darío Vanegas Madrigal. I have a Bachelor's degree
 in Computer Engineering and Bachelor's degree in Mathematics. I'm 
 currently an MSc. student in Applied Mathematics at National 
@@ -32,3 +36,13 @@ other affine areas related to them.
 - Algorithm design and analysis
 - Programming (Python, Rust)
 
+# Education
+
+- MSc. in Applied Mathematics - Universidad Nacional de Colombia (2021 - Present)
+- Bachelor's degree in Mathematics - Universidad Nacional de Colombia (2016 - 2022)
+- Bachelor's degree in Computer Engineering - Universidad Nacional de Colombia (2014 - 2021)
+
+# Publications
+
+- Moreno Cadavid, J., & Vanegas Madrigal, H. D. (2021). A Lossless Compression Method for Chat Messages Based on Huffman Coding and Dynamic Programming. Computers, 10(3), 28. MDPI AG. Retrieved from [http://dx.doi.org/10.3390/computers10030028](http://dx.doi.org/10.3390/computers10030028)
+- Moreno Cadavid, J., & Vanegas Madrigal, H. D. (2018). A Method for Fast Leaderboard Calculations in Massive Online Game-Based Environments. International Journal of Computer Games Technology, 2018, 1–7. Retrieved from [https://doi.org/10.1155/2018/3234873](https://doi.org/10.1155/2018/3234873)
