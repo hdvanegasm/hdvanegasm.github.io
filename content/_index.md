@@ -46,3 +46,11 @@ other affine areas related to them.
 
 - Moreno Cadavid, J., & Vanegas Madrigal, H. D. (2021). A Lossless Compression Method for Chat Messages Based on Huffman Coding and Dynamic Programming. Computers, 10(3), 28. MDPI AG. Retrieved from [http://dx.doi.org/10.3390/computers10030028](http://dx.doi.org/10.3390/computers10030028)
 - Moreno Cadavid, J., & Vanegas Madrigal, H. D. (2018). A Method for Fast Leaderboard Calculations in Massive Online Game-Based Environments. International Journal of Computer Games Technology, 2018, 1–7. Retrieved from [https://doi.org/10.1155/2018/3234873](https://doi.org/10.1155/2018/3234873)
+
+# Disclaimer
+
+This blog is intended to share a little bit of my findings, opinions and maybe
+some knowledge. But also, it's for practicing my english. So, it is fairly
+possible that you will encounter here typos, bad grammar, and even bad
+redaction. Not without saying that I will do my best to improve my wiriting and
+avoid such mistakes.
