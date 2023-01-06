@@ -53,4 +53,4 @@ This blog is intended to share a little bit of my findings, opinions and maybe
 some knowledge. But also, it's for practicing my english. So, it is fairly
 possible that you will encounter here typos, bad grammar, and even bad
 redaction. Not without saying that I will do my best to improve my wiriting and
-avoid such mistakes.
+avoid such mistakes. And with some frequency, I will post also content in spanish.
