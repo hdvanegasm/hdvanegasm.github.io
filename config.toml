@@ -1,6 +1,6 @@
 baseURL = 'http://hdvanegasm.github.io/'
 languageCode = 'en-us'
-title = "Hernan Vanegas"
+title = "Hernán Vanegas"
 theme = 'PaperMod'
 
 [params]

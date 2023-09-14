@@ -11,24 +11,23 @@ draft: false
 {{< /rawhtml>}}
 
 My name is Hernán Darío Vanegas Madrigal. I have a Bachelor's degree
-in Computer Engineering and Bachelor's degree in Mathematics. I'm 
-currently an MSc. student in Applied Mathematics at National 
-University of Colombia. I am interested in cryptography and 
-algorithm analysis. In general, I am interested in applying 
+in Computer Engineering and Bachelor's degree in Mathematics. I'm working as
+a MPC Research Engineer at [HashCloak Inc.](https://hashcloak.com/) Also, I am an MSc. student in Applied 
+Mathematics at National University of Colombia. I am interested in cryptography, particularly, in Secure Multiparty computation (MPC). In general, I am interested in applying 
 abstract mathematic concepts to computer science areas.
 
-I am currently learning secure multi-party computation and its 
-applications to machine learning.
+Despite I'm working with MPC constantly, I am always learning it. There is always
+something that I don't know and new things come up every day.
 
-At this moment, I am studing how to compute some genomic algorithms
+In my master's thesis, I studied how to compute some genomic algorithms
 privately using multi-party computation (MPC) protocols based on secret sharing 
 (SS). This study includes the evaluation of the pros/cons and the efficiency of
-these implementations. I am mainly using the [MP-SPDZ framework](https://github.com/data61/MP-SPDZ)
+these implementations. I used the [MP-SPDZ framework](https://github.com/data61/MP-SPDZ)
 for this work.
 
 # Interests
 
-The following list shows my main interests but I'm open to work in
+The following list shows my main interests, but I'm open to work in
 other affine areas related to them.
 - Cryptography
 - Secure multi-party computation (MPC)
@@ -53,4 +52,4 @@ This blog is intended to share a little bit of my findings, opinions and maybe
 some knowledge. But also, it's for practicing my english. So, it is fairly
 possible that you will encounter here typos, bad grammar, and even bad
 redaction. Not without saying that I will do my best to improve my wiriting and
-avoid such mistakes. And with some frequency, I will post also content in spanish.
+avoid such mistakes. And with some frequency, I will post content also in spanish.
