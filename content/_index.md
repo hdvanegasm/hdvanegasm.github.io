@@ -7,7 +7,7 @@ draft: false
 # Who am I?
 
 {{< rawhtml >}}
-<img src="/_index/self.png" width="250" />
+<img src="/_index/self.jpg" width="250" />
 {{< /rawhtml>}}
 
 My name is Hernán Darío Vanegas Madrigal. I have a Bachelor's degree
