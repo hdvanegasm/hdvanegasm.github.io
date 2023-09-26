@@ -19,8 +19,7 @@ abstract mathematic concepts to computer science areas.
 Despite I'm working with MPC constantly, I am always learning it. There is always
 something that I don't know and new things come up every day.
 
-In my master's thesis, I studied how to compute the edit distance between two DNA chains
-privately using multi-party computation (MPC) protocols based on secret sharing 
+In my master's thesis, I studied how to compute the edit distance between two DNA chains privately using multi-party computation (MPC) protocols based on secret sharing 
 (SS). This study includes the evaluation of the pros/cons and the efficiency of
 these implementations. I used the [MP-SPDZ framework](https://github.com/data61/MP-SPDZ)
 for this work.
