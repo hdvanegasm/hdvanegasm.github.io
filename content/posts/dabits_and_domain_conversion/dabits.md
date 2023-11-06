@@ -1,7 +1,7 @@
 ---
 title: "daBits and Domain Conversion in MP-SPDZ"
 date: 2023-10-31
-draft: true
+draft: false
 math: true
 editPost:
   URL: "https://github.com/hdvanegasm/hdvanegasm.github.io/tree/master/content"
