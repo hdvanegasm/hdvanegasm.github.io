@@ -31,7 +31,7 @@ Given that the underlying value in a daBit is chosen at random and does not depe
 
 For a complete specification of a protocol that generates daBits, I refer the reader to the works of [Rotaru & Wood (2019)](https://eprint.iacr.org/2019/207) and [Aly et al. (2019)](https://eprint.iacr.org/2019/974).
 
-Assuming that we can securely generate daBits, we can use them to design a protocol to convert binary shares into arithmetic shares. A protocol to accomplish this task, taken from [Damgård (2019)](https://eprint.iacr.org/2019/599), works as follows:
+Assuming that we can securely generate daBits, we can use them to design a protocol to convert binary shares into arithmetic shares. A protocol to accomplish this task, taken from [Damgård et al. (2019)](https://eprint.iacr.org/2019/599), works as follows:
 
 **Input:** a sharing $\llbracket x \rrbracket_2$ for $x \in \mathbb{Z}_2$.
 
