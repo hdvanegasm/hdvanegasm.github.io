@@ -3,5 +3,4 @@ languageCode = 'en-us'
 title = "Hernán Vanegas"
 theme = 'PaperMod'
 
-[params]
-ShowShareButtons = true
+sectionPagesMenu = "main"

@@ -1,10 +1,7 @@
 ---
-title: ""
-date: 2023-01-05T10:12:40+01:00
+title: "Who am I?"
 draft: false
 ---
-
-# Who am I?
 
 {{< rawhtml >}}
 <img src="/_index/self.jpg" width="250" />
