@@ -1,6 +1,6 @@
 ---
 title: "daBits and Domain Conversion in MP-SPDZ"
-date: 2023-10-31
+date: 2023-11-05
 draft: false
 math: true
 editPost:
@@ -40,7 +40,7 @@ Assuming that we can securely generate daBits, we can use them to design a proto
 1. Get a fresh daBit $(\llbracket r \rrbracket_2, \llbracket r \rrbracket_q)$ generated in the preprocessing phase.
 2. Each party computes locally $\llbracket c \rrbracket_2 = \llbracket x \rrbracket_2 + \llbracket r \rrbracket_2$.
 3. The parties reveal and learn the value of $c$.
-4. The parties compute locally $\llbracket x \rrbracket_q = c - \llbracket r \rrbracket_q$.
+4. The parties compute locally $\llbracket x \rrbracket_q = c + \llbracket r \rrbracket_q - 2 \cdot c \cdot \llbracket r \rrbracket_q$.
 5. The protocol outputs $\llbracket x \rrbracket_q$.
 
 Looking at the protocol specification, in Step 3, the parties reveal $c$ but its value does not reveal anything about the value of $x$ because $r$ acts as a one-time pad. Also, the round complexity of this protocol is 1 round.
