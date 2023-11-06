@@ -108,7 +108,7 @@ result = xor_int * c
 print_ln("%s", result.reveal())
 ```
 
-First, let me explain the functionality presented above. The previous source code is the specification of a three-party protocol in which $P_1$ and $P_2$ provide two bits $a, b \in \mathbb{Z}\_2$ respectively, and $P_3$ provides a value $c \in \mathbb{Z}\_q$ for a given fixed prime $q$. It is important to mention that $c$ could belong to any arithmetic domain, but I choose $Z_q$ for this discussion. In this example, the parties agree on computing the following function securely:
+First, let me explain the functionality presented above. The previous source code is the specification of a three-party protocol in which $P_1$ and $P_2$ provide two bits $a, b \in \mathbb{Z}\_2$ respectively, and $P_3$ provides a value $c \in \mathbb{Z}\_q$ for a given fixed prime $q$. It is important to mention that $c$ could belong to any arithmetic domain, but I choose $\mathbb{Z}\_q$ for this discussion. In this example, the parties agree on computing the following function securely:
 
 $$
 f(a, b, c) =
@@ -120,7 +120,7 @@ $$
 
 In the protocol, the parties first compute securely $\llbracket x \rrbracket_2 = \llbracket a \rrbracket_2 \oplus \llbracket b \rrbracket_2$ in the binary domain. Then, using daBits, the parties transform $\llbracket x \rrbracket_2$ into $\llbracket x \rrbracket_q$. Finally, the parties compute securely $\llbracket r \rrbracket_q = \llbracket x \rrbracket_q \cdot \llbracket c \rrbracket_q$ and reveal the value $r$.
 
-In the source code, each line is explained line-by-line. The relevant instruction is `xor_int = sint(xor)`. Here, I am telling the compiler that I need an explicit conversion of the variable `xor` from the binary domain to the arithmetic domain. Once this instruction is computed, the parties will have shares of the value $a \oplus b$ but in the arithmetic domain. The conversion allows the secure multiplication between $a \oplus b$ and $c$ in the arithmetic domain.
+The source code presented above is explained line-by-line. The relevant instruction is `xor_int = sint(xor)`. Here, I am telling the compiler that I need an explicit conversion of the variable `xor` from the binary domain to the arithmetic domain. Once this instruction is computed, the parties will have shares of the value $a \oplus b$ but in the arithmetic domain. The conversion allows the secure multiplication between $a \oplus b$ and $c$ in the desired computation domain.
 
 As a closing remark, the examples presented here can be a bit easy and somewhat artificial. However, these concepts and techniques have real uses in more complex protocols. As an example (and a bit of self-promotion), the work of Vanegas et al. (2023) presents a two-party protocol that computes the edit distance securely using a mixed-circuit computation. First, the protocol in that paper computes some comparisons in the binary domain, and then the result of such comparisons is transformed into the arithmetic domain to finally compute the edit distance between two strings in a finite alphabet. To make the transition between the arithmetic domain to the binary domain, the authors use the techniques presented here.
 
