@@ -15,7 +15,7 @@ Each domain has its advantages for some given tasks. For example, arithmetic dom
 
 In this blog post, we will see how to make the transition from secret values shared in a binary domain to shares in an arithmetic domain using daBits, and how to implement this in the MP-SDPZ framework. The purpose of this blog post is not to explain the underlying protocols to generate daBits given that it is a very extensive topic (such content may be a blog post by itself). Instead, we will explain briefly what are daBits along a basic protocol to do the domain conversion, and finally how to do this using the mentioned framework above.
 
-This blog assumes that the reader is familiar with the following concepts: basic concepts on MPC, secret-sharing schemes, and MP-SDPZ basics (see the tutorial and the documentation of the framework). Also, it would be desirable previous exposure to daBits, although it is not completely needed given that I will present a very high-level definition.
+This blog assumes that the reader is familiar with the following concepts: basic concepts on MPC, secret-sharing schemes, and MP-SDPZ basics (see the [tutorial](https://github.com/data61/MP-SPDZ/blob/master/Programs/Source/tutorial.mpc) and the [documentation](https://mp-spdz.readthedocs.io/en/latest/) of the framework). Also, it would be desirable previous exposure to daBits, although it is not completely needed given that I will present a very high-level definition.
 
 ### Notation
 
@@ -29,9 +29,9 @@ According to Rotaru & Wood (2019) and Aly et al. (2019), a *daBit* (which stands
 
 Given that the underlying value in a daBit is chosen at random and does not depend on the inputs provided by the parties, those daBits can be generated in a preprocessing stage of the protocol, that is, the daBits can be generated before each party provides its input to the protocol execution.
 
-For a complete specification of a protocol that generates daBits, I refer the reader to the works of Rotaru & Wood (2019) and Aly et al. (2019).
+For a complete specification of a protocol that generates daBits, I refer the reader to the works of [Rotaru & Wood (2019)](https://eprint.iacr.org/2019/207) and [Aly et al. (2019)](https://eprint.iacr.org/2019/974).
 
-Assuming that we can securely generate daBits, we can use them to design a protocol to convert binary shares into arithmetic shares. A protocol to accomplish this task, taken from Damgård (2019), works as follows:
+Assuming that we can securely generate daBits, we can use them to design a protocol to convert binary shares into arithmetic shares. A protocol to accomplish this task, taken from [Damgård (2019)](https://eprint.iacr.org/2019/599), works as follows:
 
 **Input:** a sharing $\llbracket x \rrbracket_2$ for $x \in \mathbb{Z}_2$.
 
@@ -47,7 +47,7 @@ Looking at the protocol specification, in Step 3, the parties reveal $c$ but its
 
 ## How to do it in MP-SDPZ
 
-Now that I have introduced some concepts, I will present how to transform shares from a binary domain to an arithmetic domain using daBits under the MP-SDPZ framework. The MP-SDPZ framework is a software to benchmark multiple MPC protocols under the same ground (Keller, 2020). This framework is particularly useful to determine which techniques are best suited for a given task that needs to be computed securely. At a high level, the developer writes the functionality in language derived from Python 3; then, the software compiles the source code into a *bytecode* that is run by a virtual machine.
+Now that I have introduced some concepts, I will present how to transform shares from a binary domain to an arithmetic domain using daBits under the MP-SDPZ framework. The MP-SDPZ framework is a software to benchmark multiple MPC protocols under the same ground [(Keller, 2020)](https://eprint.iacr.org/2020/521). This framework is particularly useful to determine which techniques are best suited for a given task that needs to be computed securely. At a high level, the developer writes the functionality in language derived from Python 3; then, the software compiles the source code into a *bytecode* that is run by a virtual machine.
 
 Given that the source code is passed through a compiler, in some situations, the compiler automatically detects when it is appropriate to use daBits. Consider the following example:
 
