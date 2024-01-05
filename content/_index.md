@@ -27,7 +27,7 @@ The following list shows my main interests, but I'm open to work in
 other affine areas related to them.
 - Cryptography
 - Secure multi-party computation (MPC)
-- Programming (Python, Rust)
+- Programming (Python, Rust, Go)
 - Machine learning
 - Algorithm design and analysis
 
@@ -44,6 +44,7 @@ other affine areas related to them.
 
 # Publications
 
+- Martı́n, O., Hernán, V., Jorge, T.-P., & David, B. (2023). SealClub: Computer-Aided Paper Document Authentication. Proceedings of the 39th Annual Computer Security Applications Conference, 163–177. https://doi.org/10.1145/3627106.3627176.
 - Vanegas, H., Cabarcas, D., & Aranha, D. F. (2023). Privacy-Preserving Edit Distance Computation Using Secret-Sharing Two-Party Computation. In A. Aly & M. Tibouchi (Eds.), Progress in Cryptology -- LATINCRYPT 2023 (pp. 67–86). Cham: Springer Nature Switzerland. Retrieved from [https://doi.org/10.1007/978-3-031-44469-2_4](https://doi.org/10.1007/978-3-031-44469-2_4).
 - Moreno Cadavid, J., & Vanegas Madrigal, H. D. (2021). A Lossless Compression Method for Chat Messages Based on Huffman Coding and Dynamic Programming. Computers, 10(3), 28. MDPI AG. Retrieved from [http://dx.doi.org/10.3390/computers10030028](http://dx.doi.org/10.3390/computers10030028).
 - Moreno Cadavid, J., & Vanegas Madrigal, H. D. (2018). A Method for Fast Leaderboard Calculations in Massive Online Game-Based Environments. International Journal of Computer Games Technology, 2018, 1–7. Retrieved from [https://doi.org/10.1155/2018/3234873](https://doi.org/10.1155/2018/3234873).
