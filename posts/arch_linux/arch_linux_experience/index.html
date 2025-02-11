@@ -7,12 +7,14 @@
 <script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js integrity=sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8 crossorigin=anonymous></script>
 <script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js integrity=sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05 crossorigin=anonymous></script>
 <script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:!0},{left:'$',right:'$',display:!1},{left:'\\(',right:'\\)',display:!1},{left:'\\[',right:'\\]',display:!0}],throwOnError:!1})})</script>
-<title>Blog posts | Hernán Vanegas</title>
+<title>My experience with Arch Linux | Hernán Vanegas</title>
 <meta name=keywords content>
-<meta name=description content="Blog posts - Hernán Vanegas">
+<meta name=description content="This write-up is a rolling blog post about my experience with Arch Linux. This content may help somebody learn.
+Feb. 11 - 2025 I have found Arch Linux very stable so far. The installation comes with known quirks, but their excellent documentation covers almost any question I have. I found out that the GNOME desktop environment is not that great, or at least it does not feel as snappy as the KDE desktop.">
 <meta name=author content>
-<link rel=canonical href=http://hdvanegasm.github.io/posts/>
+<link rel=canonical href=http://hdvanegasm.github.io/posts/arch_linux/arch_linux_experience/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.bccfefac377bc340f06c260aed1bddf49a4354816d7c570d6aac75a997986c95.css integrity="sha256-vM/vrDd7w0DwbCYK7Rvd9JpDVIFtfFcNaqx1qZeYbJU=" rel="preload stylesheet" as=style>
+<script defer crossorigin=anonymous src=/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=http://hdvanegasm.github.io/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=http://hdvanegasm.github.io/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=http://hdvanegasm.github.io/favicon-32x32.png>
@@ -20,20 +22,24 @@
 <link rel=mask-icon href=http://hdvanegasm.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<link rel=alternate type=application/rss+xml href=http://hdvanegasm.github.io/posts/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
-</noscript><meta property="og:title" content="Blog posts">
-<meta property="og:description" content>
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://hdvanegasm.github.io/posts/">
+</noscript><meta property="og:title" content="My experience with Arch Linux">
+<meta property="og:description" content="This write-up is a rolling blog post about my experience with Arch Linux. This content may help somebody learn.
+Feb. 11 - 2025 I have found Arch Linux very stable so far. The installation comes with known quirks, but their excellent documentation covers almost any question I have. I found out that the GNOME desktop environment is not that great, or at least it does not feel as snappy as the KDE desktop.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://hdvanegasm.github.io/posts/arch_linux/arch_linux_experience/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2023-11-05T00:00:00+00:00">
+<meta property="article:modified_time" content="2023-11-05T00:00:00+00:00">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Blog posts">
-<meta name=twitter:description content>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blog posts","item":"http://hdvanegasm.github.io/posts/"}]}</script>
+<meta name=twitter:title content="My experience with Arch Linux">
+<meta name=twitter:description content="This write-up is a rolling blog post about my experience with Arch Linux. This content may help somebody learn.
+Feb. 11 - 2025 I have found Arch Linux very stable so far. The installation comes with known quirks, but their excellent documentation covers almost any question I have. I found out that the GNOME desktop environment is not that great, or at least it does not feel as snappy as the KDE desktop.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blog posts","item":"http://hdvanegasm.github.io/posts/"},{"@type":"ListItem","position":2,"name":"My experience with Arch Linux","item":"http://hdvanegasm.github.io/posts/arch_linux/arch_linux_experience/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"My experience with Arch Linux","name":"My experience with Arch Linux","description":"This write-up is a rolling blog post about my experience with Arch Linux. This content may help somebody learn.\nFeb. 11 - 2025 I have found Arch Linux very stable so far. The installation comes with known quirks, but their excellent documentation covers almost any question I have. I found out that the GNOME desktop environment is not that great, or at least it does not feel as snappy as the KDE desktop.","keywords":[],"articleBody":"This write-up is a rolling blog post about my experience with Arch Linux. This content may help somebody learn.\nFeb. 11 - 2025 I have found Arch Linux very stable so far. The installation comes with known quirks, but their excellent documentation covers almost any question I have. I found out that the GNOME desktop environment is not that great, or at least it does not feel as snappy as the KDE desktop. Hence, I chose KDE as my main desktop environment.\nThe only problem I have faced so far is that Visual Studio Code has a minimal delay while writing. I don’t know why that happens, but once I find a fix, I will post it here. The delay does not bother me a lot because it’s very small.\n","wordCount":"130","inLanguage":"en","datePublished":"2023-11-05T00:00:00Z","dateModified":"2023-11-05T00:00:00Z","mainEntityOfPage":{"@type":"WebPage","@id":"http://hdvanegasm.github.io/posts/arch_linux/arch_linux_experience/"},"publisher":{"@type":"Organization","name":"Hernán Vanegas","logo":{"@type":"ImageObject","url":"http://hdvanegasm.github.io/favicon.ico"}}}</script>
 </head>
-<body class=list id=top>
+<body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
 <header class=header>
 <nav class=nav>
@@ -47,40 +53,30 @@
 <ul id=menu>
 <li>
 <a href=http://hdvanegasm.github.io/posts/ title="Blog posts">
-<span class=active>Blog posts</span>
+<span>Blog posts</span>
 </a>
 </li>
 </ul>
 </nav>
 </header>
 <main class=main>
-<header class=page-header>
-<h1>
-Blog posts
+<article class=post-single>
+<header class=post-header>
+<h1 class=post-title>
+My experience with Arch Linux
 </h1>
-</header>
-<article class=post-entry>
-<header class=entry-header>
-<h2>daBits and Domain Conversion in MP-SPDZ
-</h2>
-</header>
-<div class=entry-content>
-<p>In secure multi-party computation (MPC), each protocol has an underlying domain of computation in which the secure operations are performed. Such domains of computation are algebraic structures such as fields or rings. Some common examples for those domains are finite fields of order $q$, with $q$ prime, and rings of the form $\mathbb{Z}_{2^k}$. A special case is the field $\mathbb{Z}_2$, which is the one that we refer to as binary domain....</p>
+<div class=post-meta><span title="2023-11-05 00:00:00 +0000 UTC">November 5, 2023</span>&nbsp;|&nbsp;<a href=https://github.com/hdvanegasm/hdvanegasm.github.io/tree/master/content/posts/arch_linux/arch_linux_experience.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
 </div>
-<footer class=entry-footer><span title="2023-11-05 00:00:00 +0000 UTC">November 5, 2023</span></footer>
-<a class=entry-link aria-label="post link to daBits and Domain Conversion in MP-SPDZ" href=http://hdvanegasm.github.io/posts/dabits_and_domain_conversion/dabits/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>My experience with Arch Linux
-</h2>
 </header>
-<div class=entry-content>
-<p>This write-up is a rolling blog post about my experience with Arch Linux. This content may help somebody learn.
-Feb. 11 - 2025 I have found Arch Linux very stable so far. The installation comes with known quirks, but their excellent documentation covers almost any question I have. I found out that the GNOME desktop environment is not that great, or at least it does not feel as snappy as the KDE desktop....</p>
+<div class=post-content><p>This write-up is a rolling blog post about my experience with Arch Linux. This content may help somebody learn.</p>
+<h1 id=feb-11---2025>Feb. 11 - 2025<a hidden class=anchor aria-hidden=true href=#feb-11---2025>#</a></h1>
+<p>I have found Arch Linux very stable so far. The installation comes with known quirks, but their excellent documentation covers almost any question I have. I found out that the GNOME desktop environment is not that great, or at least it does not feel as snappy as the KDE desktop. Hence, I chose KDE as my main desktop environment.</p>
+<p>The only problem I have faced so far is that Visual Studio Code has a minimal delay while writing. I don&rsquo;t know why that happens, but once I find a fix, I will post it here. The delay does not bother me a lot because it&rsquo;s very small.</p>
 </div>
-<footer class=entry-footer><span title="2023-11-05 00:00:00 +0000 UTC">November 5, 2023</span></footer>
-<a class=entry-link aria-label="post link to My experience with Arch Linux" href=http://hdvanegasm.github.io/posts/arch_linux/arch_linux_experience/></a>
+<footer class=post-footer>
+<ul class=post-tags>
+</ul>
+</footer>
 </article>
 </main>
 <footer class=footer>
