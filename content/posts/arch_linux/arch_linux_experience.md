@@ -1,6 +1,6 @@
 ---
 title: "My experience with Arch Linux"
-date: 2023-11-05
+date: 2025-02-11
 draft: false
 math: true
 editPost:
