@@ -9,7 +9,23 @@ editPost:
   appendFilePath: true
 ---
 
-This write-up is a rolling blog post about my experience with Arch Linux. This content may help somebody learn.
+This is a rolling blog post about my experience with Arch Linux. This content may help somebody.
+
+# Mar. 7 - 2025
+
+I have found an error in the package `dwarffortress`. I installed the package using pacman as always. However, when I executed the program, I got the following error:
+
+```
+/usr/bin/dwarffortress: line 15: 13472 Segmentation fault      (core dumped) LD_LIBRARY_PATH="${LD_LIBRARY_PATH:+$LD_LIBRARY_PATH:}${DF_DIR}" $DF_DIR/dwarfort "$@"
+```
+After printing the output of `journalctl -r`, I got the following output:
+
+```
+Module [dso] without build-id.
+```
+
+After that, I recently did a major update to the system and the error was completely solved. I still don't know what happened and how could I solve the problem at that time. 
+
 
 # Feb. 11 - 2025
 
