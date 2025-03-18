@@ -7,11 +7,9 @@ draft: false
 <img src="/_index/self.jpg" width="250" />
 {{< /rawhtml>}}
 
-My name is Hernán Darío Vanegas Madrigal. I have a Bachelor's degree
-in Computer Engineering and Bachelor's degree in Mathematics. I'm working as
-a MPC Research Engineer at [HashCloak Inc.](https://hashcloak.com/) Also, I am an MSc. student in Applied 
-Mathematics at National University of Colombia. I am interested in cryptography, particularly, in Secure Multiparty Computation (MPC). In general, I am interested in applying 
-abstract mathematic concepts to computer science areas.
+My name is Hernán Darío Vanegas Madrigal. I'm working as
+a MPC Research Engineer at [HashCloak Inc.](https://hashcloak.com/) I have MSc. in Applied 
+Mathematics at National University of Colombia with an emphasis in Cryptography. I am interested in [Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf). In general, I am interested in applying abstract mathematic concepts to computer science areas.
 
 Despite I'm working with MPC constantly, I am always learning it. There is always
 something that I don't know and new things come up every day.
@@ -28,18 +26,18 @@ other affine areas related to them.
 - Cryptography
 - Secure multi-party computation (MPC)
 - Programming (Python, Rust, Go)
-- Machine learning
 - Algorithm design and analysis
+- Machine learning
 
 # Education
 
-- MSc. in Applied Mathematics - Universidad Nacional de Colombia (2021 - Present)
+- MSc. in Applied Mathematics - Universidad Nacional de Colombia (2021 - 2023)
 - Bachelor's degree in Mathematics - Universidad Nacional de Colombia (2016 - 2022)
 - Bachelor's degree in Computer Engineering - Universidad Nacional de Colombia (2014 - 2021)
 
 # Working experience
 
-- HashCloak Inc. -- MPC Research Engineer (July, 2023 - Current)
+- HashCloak Inc. -- MPC Research Engineer (July, 2023 - Present)
 - ETH Zürich, Switzerland -- Academic guest (October 2022 - January 2023)
 
 # Publications
